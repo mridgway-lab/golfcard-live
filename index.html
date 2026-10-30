@@ -18,7 +18,7 @@ h1{font-size:24px;margin:0}.sub{color:var(--dim);font-size:14px;margin:4px 0 14p
 <div id="app"></div>
 <script>
 // Reads one record from the CloudKit PUBLIC database with a read-only API token (safe to publish).
-const C="iCloud.com.dtrt.golfcard", ENV="production", TOKEN="PASTE_READ_ONLY_TOKEN";
+const C="iCloud.com.dtrt.golfcard", ENV="production", TOKEN="3059c0260f0f82fe368349fb709168264056040219eb8cbde95eb9e8c32cf946";
 const id=new URLSearchParams(location.search).get("r");
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const tp=v=>v===0?"E":(v>0?"+"+v:""+v);
